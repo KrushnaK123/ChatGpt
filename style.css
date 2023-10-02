@@ -857,6 +857,7 @@ margin: 1rem;
     color: white;
     gap: 2px;
     margin-left: 10px;
+
     
     
   }
@@ -885,15 +886,16 @@ margin: 1rem;
     
   }
 
- 
+  #Mi{
+    color: #000000;
+    margin-right:5.5rem;
+}
 
+#Se{
+    color: #000000;
+    margin-left: 5.5rem;
 
-
-
-
-
-
-
+}
 
 
 
@@ -1124,6 +1126,7 @@ margin: 1rem;
 .line3 p{
     font-size: 3rem;
 }
+
 .line4 p{
     font-size: 3rem;
     
@@ -1147,6 +1150,11 @@ margin: 1rem;
     color: #f5f5f5;
     border-radius: 0.3rem;
     animation: shake 1s alternate;
+}
+
+
+.unlock-bonus img{
+    margin-top: 2rem;
 }
 
 .change-size{
@@ -1631,6 +1639,12 @@ h1{
         
     
     }
+
+
+    .unlock-bonus img{
+        width: 20rem;
+    }
+    
     
     .Learn{
         text-align: center;
@@ -1776,22 +1790,30 @@ h1{
 
 
         #minutes {
-            width: 20rem;   
-            height: 10rem;
-          
-           font-size: 1rem;
+            width: 18rem;   
+            height: auto;
+           font-size: 3rem;
+          }
 
-        
-          }
           #seconds {
-            width: 20rem;   
-            height: 10rem;  
+            width: 18rem;   
+            height: auto;  
+           font-size: 3rem;
         
-           font-size: 1rem;
-        
-           
-            
           }
+
+          #Mi{
+            color: #000000;
+            margin-right:4rem;
+            font-size: 1rem;
+        }
+        
+        #Se{
+            color: #000000;
+            margin-left: 4rem;
+            font-size: 1rem;
+        
+        }
         
          
         
@@ -1848,9 +1870,9 @@ h1{
 
 
 
-        #minutes{
-            width: auto;   /* Initial width */
-            height: 10vh; /* Initial height */
+         /* #minutes{
+            width: auto;   
+            height: 10vh; 
             background-color: #272323;
             padding: 20px;
            display: flex;
@@ -1861,8 +1883,8 @@ h1{
         
           }
           #seconds{
-            width: auto;   /* Initial width */
-            height: 10vh;  /* Initial height */
+            width: auto;   
+            height: 10vh;  
             background-color: #272323;
             padding: 20px;
            display: flex;
@@ -1874,7 +1896,7 @@ h1{
           }
         
         
-
+ */ 
 
         
         .get{
